@@ -1,0 +1,23 @@
+.comment-box { 
+    width: 500px;
+    margin: 15px auto;
+    padding: 16px 20px; 
+    background: #000; border: 2px solid #52E27D; 
+    border-radius: 12px; box-sizing: border-box; } 
+.displayName { 
+    display: inline-block; 
+    padding: 5px 10px; 
+    margin-bottom: 10px; 
+    background: #52E27D; color: #000; 
+    border-radius: 6px; font-size: 15px; 
+    font-weight: bold; } 
+.comments { 
+    color: #fff; 
+    font-size: 15px; 
+    line-height: 1.5; 
+    overflow-wrap: break-word; }
+.app-container{
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

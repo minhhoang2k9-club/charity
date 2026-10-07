@@ -1,0 +1,62 @@
+.about-title {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:#fff;
+    font-family: Arial, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+}
+.picture{
+    height:300px;
+}
+.gioithieupicture{
+    display:flex;
+    flex-direction:row;
+}
+.Gioithieutext{
+    color: #fff;
+    font-size: 19px;
+    padding-right: 20px;
+    
+}
+.Gioithieu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.about-subtitle {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:#fff;
+    font-family: Arial, sans-serif;
+    margin-left:20px;
+    margin-top: 50px;
+    border-top: 2px solid white;
+}
+.native-box {
+  background-color: #52E27D;
+  color: black;
+  padding: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.native-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.native-content {
+  margin-top: 10px;
+  color: black;
+}

@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.nav-bar{
+    display: flex;
+    width: 99%;
+    gap: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ffffff;   
+    box-shadow: 0 5px 10px rgba(15, 154, 56, 0.3);
+    background-color: #52E27D;
+}
+.nav-bar .nav-link{
+    flex: 1;
+    text-align: center;
+    font-size:18px;
+    padding: 12px 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.nav-bar .nav-link:hover{
+    background-color: rgba(15, 154, 56, 0.6);
+}
+.nav-bar .nav-link:active{
+    background-color: rgba(15, 154, 56, 1);
+}
+.account-login{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    padding-right:20px;
+    color:white;
+   
+}
+.account-login h3{
+   position: absolute;
+  left: 0;
+  margin-left: 20px;
+  border: 2px solid white;
+  padding: 10px;
+  background-color: #2f0fbf;
+
+}
+.account-login button {
+  background-color: #007bff; 
+  color: white;              
+  border: none;              
+  padding: 8px 16px;          
+  font-size: 14px;            
+  font-weight: 600;          
+  border-radius: 6px;         
+  cursor:pointer;
+
+}
+body{
+    background-color: black;
+
+}
